@@ -1,6 +1,8 @@
+import turkerImg from "./images/turkerfoto.png"
+
 function Profile(){
     return(
-     <img src="./turkerfoto.png" alt="Turker tuncer" />
+     <img style={{margin : "100px"}} src={turkerImg} alt="Turker tuncer" />
 
      )
 }
@@ -11,7 +13,7 @@ function Gallery() {
     <Profile/>
     <Profile/>
     <Profile/>
-    GALERY
+    <h1>GALERY</h1>
     </div>
   )
 }
