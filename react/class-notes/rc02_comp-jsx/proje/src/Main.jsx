@@ -27,6 +27,8 @@ function Main() {
             <img className="img" src="https://cdn.pixabay.com/photo/2024/01/27/00/46/capra-8535002_1280.jpg" alt="keci" />
 
             <img src={turkerImg} alt="turker" />
+
+            <img style={{margin: "50px"}} src="./img/turkerfoto.png" alt="yeni" />
         </div>
 
 
