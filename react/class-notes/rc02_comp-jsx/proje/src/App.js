@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import Galery from "./Gallery";
 import Header from "./Header";
 import Main from "./Main";
 import Gallery from "./Gallery";
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
      <Header></Header>
      <Main></Main>
-     <Galery></Galery>
+     <Gallery></Gallery>
      <Footer></Footer>
     
     </div>

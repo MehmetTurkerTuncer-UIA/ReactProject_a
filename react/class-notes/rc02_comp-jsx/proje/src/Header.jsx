@@ -1,7 +1,11 @@
 
 function Header() {
-  return (
-    <div>Header</div>
+    const yazi = 'Hello Enisa'
+    return (
+    <header>
+        {/* Yorum satırı */}
+        <h1>{yazi}</h1>
+    </header>
   )
 }
 
